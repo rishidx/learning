@@ -20,14 +20,22 @@ This project for Spring Boot is to learn, implement and test, how configmap data
     kubectl delete configmap spring-k8s-configapp
     kubectl delete -f k8s-files/spring-k8s-configapp-deployment.yaml
 
-    kubectl create -f k8s-files/spring-k8s-configapp-configmap.yaml
-    kubectl create -f k8s-files/spring-k8s-configapp-deployment.yaml
+    kubectl apply -f k8s-files/spring-k8s-configapp-servicerole.yml
+    kubectl apply -f k8s-files/spring-k8s-configapp-configmap.yaml
+    kubectl apply -f k8s-files/spring-k8s-configapp-deployment.yaml
     
     kubectl expose deployment spring-k8s-configmap --type=LoadBalancer --name=my-service
     
-**Step 5)** Browse GET api to getc and check if config loaded from configmap
+**Step 5)** Browse GET api to get and check if config loaded from configmap
 
     curl -v http://localhost:8080/api/config/all
+    
+**Step 6)** Clean up all resources
+
+    kubectl delete -f k8s-files/spring-k8s-configapp-deployment.yaml
+    kubectl delete -f k8s-files/spring-k8s-configapp-servicerole.yml
+    kubectl delete configmap spring-k8s-configapp -n ns-sample
+    kubectl delete service my-service -n ns-sample
 
 
 ### Reference Documentation
