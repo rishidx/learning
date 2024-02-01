@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: spring-k8s-configapp
+data:
+  application.properties: |-
+    bean.message=Reload done ! Message from configmap
+    app.data1=Some random data - 1
+    app.data2=Some random data - 2
