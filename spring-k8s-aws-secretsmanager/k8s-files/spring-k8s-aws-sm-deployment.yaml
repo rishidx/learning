@@ -1,0 +1,26 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: spring-k8s-aws-sm
+  namespace: ns-sample
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: spring-k8s-aws-sm
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: spring-k8s-aws-sm
+    spec:
+      containers:
+        - name: spring-k8s-aws-sm 
+          image: spring-k8s-aws-secretsmanager:0.0.1
+          imagePullPolicy: Never
+          ports:
+          - containerPort: 8080
+          env:
+          - name: AWS_ACCESS_KEY_ID 
+            value: A
+          - name: AWS_SECRET_ACCESS_KEY
+            value: 3
