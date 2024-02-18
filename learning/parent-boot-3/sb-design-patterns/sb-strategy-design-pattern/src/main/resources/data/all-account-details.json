@@ -1,0 +1,69 @@
+{
+  "BOE" : {
+    "ENG" : [ {
+      "name" : "RAJARSHI",
+      "accountType" : "DEMAT",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 2900",
+      "lastTxnDate" : "12-JAN-2024"
+    }, {
+      "name" : "RISHI",
+      "accountType" : "DEMAT",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 1400",
+      "lastTxnDate" : "01-AUG-2023"
+    } ]
+  },
+  "SBI" : {
+    "USA" : [ {
+      "name" : "RAJARSHI",
+      "accountType" : "SAVINGS",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 2000",
+      "lastTxnDate" : "01-JAN-2024"
+    }, {
+      "name" : "RISHI",
+      "accountType" : "SAVINGS",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 5500",
+      "lastTxnDate" : "01-JUN-2023"
+    }, {
+      "name" : "RISHI",
+      "accountType" : "CURRENT",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 3300",
+      "lastTxnDate" : "01-FEB-2024"
+    } ],
+    "IND" : [ {
+      "name" : "RAJARSHI",
+      "accountType" : "SAVINGS",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 2100",
+      "lastTxnDate" : "01-JAN-2024"
+    }, {
+      "name" : "RAJARSHI",
+      "accountType" : "DEMAT",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 3100",
+      "lastTxnDate" : "12-JAN-2024"
+    }, {
+      "name" : "RISHI",
+      "accountType" : "SAVINGS",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 5600",
+      "lastTxnDate" : "01-JUN-2023"
+    }, {
+      "name" : "RISHI",
+      "accountType" : "DEMAT",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 1510",
+      "lastTxnDate" : "01-AUG-2023"
+    }, {
+      "name" : "RISHI",
+      "accountType" : "CURRENT",
+      "accountStatus" : "ACTIVE",
+      "currentAmount" : "INR 3310",
+      "lastTxnDate" : "01-FEB-2024"
+    } ]
+  }
+}
