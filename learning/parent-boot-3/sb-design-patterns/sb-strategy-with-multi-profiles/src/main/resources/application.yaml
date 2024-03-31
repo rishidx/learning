@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: sb-strategy-design-patterns
+    
+account:
+  type: 
+    USA:
+      SBI: SAVINGS
+    IND:
+      SBI: DEMAT
+    BOE:
+      ENG: DEMAT

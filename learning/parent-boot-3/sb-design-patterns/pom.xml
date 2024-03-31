@@ -11,5 +11,6 @@
   <description>spring boot project to learn design patterns</description>
   <modules>
   	<module>sb-strategy-design-pattern</module>
+  	<module>sb-strategy-with-multi-profiles</module>
   </modules>
 </project>

@@ -90,5 +90,6 @@
 	</build>
 	<modules>
 		<module>sb-design-patterns</module>
+		<module>sb-profiles-project</module>
 	</modules>
 </project>
